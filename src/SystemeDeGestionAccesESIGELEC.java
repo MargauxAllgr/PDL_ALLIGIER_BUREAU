@@ -9,8 +9,18 @@
 public class SystemeDeGestionAccesESIGELEC {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// méthode main, de test
 
+		LieuDAO test;
+		Lieu testbis;
+		
+		
+		test = new LieuDAO();
+		testbis = new Lieu("Testbis", 7);
+		
+		test.ajouterLieuBDD(testbis);
+		
+		
 	}
 
 }
